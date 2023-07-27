@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .welldone{
+        background: rgb(92, 6, 230);
+        padding: 100px;
+        border-radius: 70px;
+
+        animation-name:mimi;
+            animation-duration:1s;
+            animation-timing-function: easy-in-out;
+            animation-delay:0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse; 
+      }
+
+      @keyframes mimi {
+        from{
+            background-color: yellow;
+            margin-left: 0px;
+        }
+        to{
+            background-color: blue;
+            margin-left: 500px;
+        }
+      }
+
+
+      .fomsy{
+        background: rgb(230, 6, 6);
+        padding: 100px;
+        border-radius: 100px;
+
+        animation-name:lami;
+            animation-duration:1s;
+            animation-timing-function: ease-in-out;
+            animation-delay:0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse; 
+      }
+
+      @keyframes lami {
+        from{
+            background-color: greenyellow;
+            margin-top: 0px;
+        }
+        to{
+            background-color: paleturquoise;
+            margin-top: 500px;
+        }
+      }
+        
+    </style>
+</head>
+<body>
+    <button class="welldone">
+        nothing
+    </button>
+    <br>
+    <button class="fomsy">
+        nothing
+    </button>
+    
+</body>
+</html>

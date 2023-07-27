@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .themenu{
+            background: red;
+            width: 80px;
+            padding: 10px;
+        }
+        .themenu ol{
+            padding: 5px;
+            margin: 0px;
+            background: blue;
+            display:none ;
+        }
+
+        .themenu:hover ol{
+            display: block;
+        }
+        .themenu li{
+            background: gold;
+            margin: 5px 0px;
+            text-align: center;
+        }
+        .themenu li:hover{
+            background: black;
+            color: aliceblue;
+        }
+        .theicon{
+            width: 70px;
+            background: blue;
+            padding: 10px;
+            text-align: center;
+        }
+        .theicon ol{
+            background: brown;
+            padding: 5px;
+            display: none;
+            margin: 0px;
+        }
+        .theicon:hover ol{
+            display: block;
+        }
+        .theicon li{
+            background: white;
+            color: black;
+        }
+        .theicon li:hover{
+            background: black;
+            color: aliceblue;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <!--THE DROPDOWN-->
+    <div class="themenu">
+        menu
+        <ol>
+            <li>ABOUT</li>
+            <li>ABOUT</li>
+            <li>ABOUT</li>
+            <li>ABOUT</li>
+            <li>ABOUT</li>
+        </ol>
+
+       
+    </div><br><br>
+
+    <div class="theicon">
+        icon
+        <ol>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+        </ol>
+
+    </div>
+</body>
+</html>
